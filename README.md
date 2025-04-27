@@ -11,7 +11,7 @@ A Python package for analyzing and forecasting the health of the startup ecosyst
   - Exponential Smoothing
 - Comprehensive data preprocessing
 - Large Language Models (OpenAI)
-- Visualization utilities
+- Visualization
 - Performance metrics calculation
 
 ## Installation
