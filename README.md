@@ -84,22 +84,6 @@ startup_ecosystem_forecasting/
 └── setup.py
 ```
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Thanks to Ngruver for researching the Zero-shot learning method, LLMTime.
-
-## Contact
-
-For questions or support, please open an issue in the GitHub repository. 
-
 ## LLMTime vs Traditional Time Series Forecasting Methods
 
 I conducted a comprehensive evaluation of the **LLMTime** model against traditional time series forecasting methods, using both **synthetic** and **real-world** datasets.
@@ -157,3 +141,20 @@ I conducted a comprehensive evaluation of the **LLMTime** model against traditio
 
 - **Synthetic Data**: LLMTime achieves superior generalization to patterns **without needing exhaustive hyperparameter tuning or model pretraining**.
 - **Real-World Data**: LLMTime delivers competitive and often better performance than traditional models, offering a strong new approach for startup ecosystem forecasting.
+
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to Ngruver for researching the Zero-shot learning method, LLMTime.
+
+## Contact
+
+For questions or support, please open an issue in the GitHub repository. 
