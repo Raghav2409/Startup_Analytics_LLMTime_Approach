@@ -84,10 +84,6 @@ startup_ecosystem_forecasting/
 └── setup.py
 ```
 
-## Documentation
-
-For detailed documentation, please refer to the [docs](docs/) directory.
-
 ## Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
