@@ -1,6 +1,6 @@
 # Startup Ecosystem Forecasting
 
-A Python package for analyzing and forecasting the health of the startup ecosystem using various time series methods, including a Zero-shot learning method, LLMTime.
+A Python package for analyzing and forecasting the health of the startup ecosystem using various time series methods, including a **Zero-shot learning method, LLMTime**
 
 ## Features
 
