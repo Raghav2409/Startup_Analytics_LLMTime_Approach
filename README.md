@@ -108,45 +108,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or support, please open an issue in the GitHub repository. 
 
-# LLMTime vs Traditional Time Series Forecasting Methods
+## LLMTime Vs Traditional Time Series Forecasting Methods
 
-## 1. Synthetic Data Testing
-- **Dataset**: Synthetically generated with both an overall **trend** (growth over time) and **seasonality** (repeating patterns).
-  
-<p align="center">
-  <img width="882" alt="Synthetic Data - Trend and Seasonality" src="https://github.com/user-attachments/assets/4cf10793-48ea-43d2-ad64-8502db5d24b1" />
-</p>
+- Model Testing on **synthetically generated data** with both a trend (growing overall) and seasonality (repeating up and down patterns).
+<img width="882" alt="Screenshot 2025-04-27 at 2 45 52 AM" src="https://github.com/user-attachments/assets/4cf10793-48ea-43d2-ad64-8502db5d24b1" />
+<img width="883" alt="Screenshot 2025-04-27 at 2 46 20 AM" src="https://github.com/user-attachments/assets/f1ed27c2-dd05-4b8d-a726-1fbc82f18e2e" />
+<img width="879" alt="Screenshot 2025-04-27 at 2 45 14 AM" src="https://github.com/user-attachments/assets/c74c3afa-4448-4406-8537-2dc8f919d6d3" />
 
-<p align="center">
-  <img width="883" alt="Model Comparisons on Synthetic Data" src="https://github.com/user-attachments/assets/f1ed27c2-dd05-4b8d-a726-1fbc82f18e2e" />
-</p>
 
-<p align="center">
-  <img width="879" alt="Forecasting Accuracy on Synthetic Data" src="https://github.com/user-attachments/assets/c74c3afa-4448-4406-8537-2dc8f919d6d3" />
-</p>
+- Model Testing on real-world data for **startup ecosystem periodic growth in 4 years** (Jan 2020 - Jan 2024)
+<img width="849" alt="Screenshot 2025-04-27 at 2 48 33 AM" src="https://github.com/user-attachments/assets/ff0668d5-2f41-440f-9763-aaaa3ce5f560" />
 
-- **Results**:
-  - **LLMTime** demonstrated a superior fit compared to traditional models like **ARIMA** and **SARIMA**.
-  - Captured both trend and seasonality more effectively.
-
----
-
-## 2. Real-World Data Testing
-- **Dataset**: Startup ecosystem's **periodic growth over four years** (Jan 2020 – Jan 2024).
-
-<p align="center">
-  <img width="849" alt="Startup Ecosystem Growth - Forecasting" src="https://github.com/user-attachments/assets/ff0668d5-2f41-440f-9763-aaaa3ce5f560" />
-</p>
-
-- **Results**:
-  - **Performance Metrics**:
-    - **MAE**: LLMTime achieved the lowest Mean Absolute Error, outperforming ARIMA and SARIMA.
-    - **RMSE**: LLMTime showed marginal improvement; differences with ARIMA/SARIMA were minimal.
-  - **Conclusion**: LLMTime provided better or comparable forecasts across key metrics.
-
----
-
-## Final Conclusion
-- On **synthetic data**, LLMTime significantly outperformed traditional models in capturing trend and seasonality.
-- On **real-world data**, LLMTime consistently achieved better results based on MAE, and comparable results based on RMSE.
-- **LLMTime shows strong generalization capabilities** across both controlled and real-world scenarios.
+- Conclusion: In scenario 1, it's evident that the LLMTime model has a better fit compared to the traditional, ARIMA & SARIMA models. In scenario 2, as per the performance metric (MAE), LLMTime beats all other models, while RMSE suggests a marginal difference in performance compared to ARIMA & SARIMA models. 
