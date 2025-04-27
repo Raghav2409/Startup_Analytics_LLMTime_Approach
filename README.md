@@ -10,9 +10,9 @@ A Python package for analyzing and forecasting the health of the startup ecosyst
   - SARIMA: Seasonal ARIMA
   - Exponential Smoothing
 - Comprehensive data preprocessing
+- Large Language Models (OpenAI)
 - Visualization utilities
 - Performance metrics calculation
-- Easy-to-use API
 
 ## Installation
 
