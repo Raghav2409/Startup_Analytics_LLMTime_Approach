@@ -92,10 +92,6 @@ For detailed documentation, please refer to the [docs](docs/) directory.
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-## Code of Conduct
-
-Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
