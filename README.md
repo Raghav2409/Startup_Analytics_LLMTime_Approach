@@ -108,15 +108,60 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or support, please open an issue in the GitHub repository. 
 
-## LLMTime Vs Traditional Time Series Forecasting Methods
+## LLMTime vs Traditional Time Series Forecasting Methods
 
-- Model Testing on **synthetically generated data** with both a trend (growing overall) and seasonality (repeating up and down patterns).
-<img width="882" alt="Screenshot 2025-04-27 at 2 45 52 AM" src="https://github.com/user-attachments/assets/4cf10793-48ea-43d2-ad64-8502db5d24b1" />
-<img width="883" alt="Screenshot 2025-04-27 at 2 46 20 AM" src="https://github.com/user-attachments/assets/f1ed27c2-dd05-4b8d-a726-1fbc82f18e2e" />
-<img width="879" alt="Screenshot 2025-04-27 at 2 45 14 AM" src="https://github.com/user-attachments/assets/c74c3afa-4448-4406-8537-2dc8f919d6d3" />
+I conducted a comprehensive evaluation of the **LLMTime** model against traditional time series forecasting methods, using both **synthetic** and **real-world** datasets.
 
+### 1. Synthetic Dataset
 
-- Model Testing on real-world data for **startup ecosystem periodic growth in 4 years** (Jan 2020 - Jan 2024)
-<img width="849" alt="Screenshot 2025-04-27 at 2 48 33 AM" src="https://github.com/user-attachments/assets/ff0668d5-2f41-440f-9763-aaaa3ce5f560" />
+- **Dataset**: Artificially generated with both a **trend** (growing pattern) and **seasonality** (repeating up-and-down cycles).
+- **Models Compared**:
+  - LLMTime (Zero-shot forecasting with LLMs)
+  - ARIMA
+  - SARIMA
 
-- Conclusion: In scenario 1, it's evident that the LLMTime model has a better fit compared to the traditional, ARIMA & SARIMA models. In scenario 2, as per the performance metric (MAE), LLMTime beats all other models, while RMSE suggests a marginal difference in performance compared to ARIMA & SARIMA models. 
+**Visual Comparison:**
+
+<p align="center">
+  <img width="882" alt="Synthetic - Fit Comparison 1" src="https://github.com/user-attachments/assets/4cf10793-48ea-43d2-ad64-8502db5d24b1" />
+</p>
+
+<p align="center">
+  <img width="883" alt="Synthetic - Fit Comparison 2" src="https://github.com/user-attachments/assets/f1ed27c2-dd05-4b8d-a726-1fbc82f18e2e" />
+</p>
+
+<p align="center">
+  <img width="879" alt="Synthetic - Fit Comparison 3" src="https://github.com/user-attachments/assets/c74c3afa-4448-4406-8537-2dc8f919d6d3" />
+</p>
+
+**Findings**:
+- **LLMTime** demonstrated a significantly better fit to the data compared to ARIMA and SARIMA.
+- It captured both trend and seasonal patterns more naturally without heavy manual tuning.
+
+---
+
+### 2. Real-World Dataset
+
+- **Dataset**: Startup ecosystem growth data over **4 years** (Jan 2020 – Jan 2024).
+- **Models Compared**:
+  - LLMTime
+  - ARIMA
+  - SARIMA
+  - Exponential Smoothing
+
+**Visual Comparison:**
+
+<p align="center">
+  <img width="849" alt="Real-World Startup Data Comparison" src="https://github.com/user-attachments/assets/ff0668d5-2f41-440f-9763-aaaa3ce5f560" />
+</p>
+
+**Findings**:
+- Based on **Mean Absolute Error (MAE)**, **LLMTime** outperformed all traditional models.
+- Based on **Root Mean Squared Error (RMSE)**, the margin between LLMTime and ARIMA/SARIMA was marginal
+
+---
+
+### Conclusion
+
+- **Synthetic Data**: LLMTime achieves superior generalization to patterns **without needing exhaustive hyperparameter tuning or model pretraining**.
+- **Real-World Data**: LLMTime delivers competitive and often better performance than traditional models, offering a strong new approach for startup ecosystem forecasting.
