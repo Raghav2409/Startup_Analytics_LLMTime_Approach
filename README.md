@@ -110,15 +110,16 @@ For questions or support, please open an issue in the GitHub repository.
 
 ## LLMTime Vs Traditional Time Series Forecasting Methods
 
-Model Testing on synthetically generated data with both a trend (growing overall) and seasonality (repeating up and down patterns).
+Model Testing on **synthetically generated data** with both a trend (growing overall) and seasonality (repeating up and down patterns).
 <img width="882" alt="Screenshot 2025-04-27 at 2 45 52 AM" src="https://github.com/user-attachments/assets/4cf10793-48ea-43d2-ad64-8502db5d24b1" />
 <img width="883" alt="Screenshot 2025-04-27 at 2 46 20 AM" src="https://github.com/user-attachments/assets/f1ed27c2-dd05-4b8d-a726-1fbc82f18e2e" />
 <img width="879" alt="Screenshot 2025-04-27 at 2 45 14 AM" src="https://github.com/user-attachments/assets/c74c3afa-4448-4406-8537-2dc8f919d6d3" />
 
-As evident LLMTime model has a better fit compared to the ARIMA & SARIMA models for Time Series Forecasting
+As evident LLMTime model has a better fit compared to the traditional, ARIMA & SARIMA models
 
 
-Model Testing on real-world data for startup ecosystem periodic growth in 4 years (Jan 2020 - Jan 2024)
+
+Model Testing on real-world data for **startup ecosystem periodic growth in 4 years** (Jan 2020 - Jan 2024)
 <img width="849" alt="Screenshot 2025-04-27 at 2 48 33 AM" src="https://github.com/user-attachments/assets/ff0668d5-2f41-440f-9763-aaaa3ce5f560" />
 
 As per the performance metric, MAE, LLMTime beat all other models, while RMSE suggests a similar performance compared to ARIMA & SARIMA models
