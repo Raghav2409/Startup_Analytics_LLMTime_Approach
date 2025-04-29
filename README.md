@@ -8,7 +8,7 @@ A Python package for analyzing and forecasting the health of the startup ecosyst
   - LLMTime: Leveraging Large Language Models for time series forecasting
   - ARIMA: AutoRegressive Integrated Moving Average
   - SARIMA: Seasonal ARIMA
-  - Exponential Smoothing
+  - Exponential Smoothing (Holt Winters)
 - Comprehensive data preprocessing
 - Large Language Models (OpenAI)
 - Visualization
