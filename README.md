@@ -118,7 +118,7 @@ I conducted a comprehensive evaluation of the **LLMTime** model against traditio
 
 ### 2. Real-World Dataset
 
-- **Dataset**: Startup ecosystem growth data over **4 years** (Jan 2020 – Jan 2024).
+- **Dataset**: Startup ecosystem growth data over **4 years** (Jan 2020 – Jan 2025).
 - **Models Compared**:
   - LLMTime
   - ARIMA
@@ -134,6 +134,11 @@ I conducted a comprehensive evaluation of the **LLMTime** model against traditio
 **Findings**:
 - Based on **Mean Absolute Error (MAE)**, **LLMTime** outperformed all traditional models.
 - Based on **Root Mean Squared Error (RMSE)**, the margin between LLMTime and ARIMA/SARIMA was marginal
+- Key Findings:
+Total Growth: 89.23%
+Weekly Change: 0.42%
+Volatility: 2.15%
+LLMTime highlighted key growth periods (like post-COVID recovery in 2020) and market corrections, providing actionable insights for investors and founders.
 
 ---
 
