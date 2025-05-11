@@ -118,7 +118,7 @@ I conducted a comprehensive evaluation of the **LLMTime** model against traditio
 
 ### 2. Real-World Dataset
 
-- **Dataset**: Startup ecosystem growth data over **4 years** (Jan 2020 – Jan 2025).
+- **Dataset**: Startup ecosystem growth data over **5 years** (Jan 2020 – Jan 2025).
 - **Models Compared**:
   - LLMTime
   - ARIMA
